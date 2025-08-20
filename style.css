@@ -145,18 +145,23 @@ p#resultado {
 @media screen and (min-width: 1024px) {
   header {
     max-width: 700px;
+    
   }
 
   main {
     max-width: 700px;
   }
 
+  header { 
+  padding-top: 5px;
+}
+
   h1 {
     font-size: 3rem;
   }
 
   section.superior {
-    height: 350px;
-    background-size: 250px;
+    max-height: 180px;
+    background-size: contain;
   }
 }
