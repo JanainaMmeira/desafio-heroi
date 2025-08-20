@@ -23,11 +23,15 @@ function classificarHeroi() {
         nivel = "Ascendente";
     } else if (xp >= 9001 && xp <= 10000) {
         nivel = "Imortal";
-    } else {
+    } else if (xp >=10001) {
         nivel = "Radiante";
     }
 
-    document.getElementById('resultado').innerText = `O Herói de nome ${nome} está no nível de ${nivel}.`;
+    else {
+        nivel = " desconhecido, informe os dados acima ↑";
+    }
+
+    document.getElementById('resultado').innerText = ` O Herói ${nome} está no nível ${nivel}.`;
     limparCampo();
 }
 

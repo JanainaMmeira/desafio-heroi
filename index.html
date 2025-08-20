@@ -2,26 +2,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/Styles/styles.css">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Desafio do Herói - DIO</title>
 </head>
 <body>
     <header>
+        <section class="titulo">
+            <h1>Desafio do Herói</h1>
+            <p>Informe o nome e o XP para verificar o nível do seu herói.!</i></p>
+        </section>
+    </header>
     <main>
-               <div class="containner_rigth"> 
-                <section>
-                    <h1>Desafio do Herói</h1>
-                    <p>Informe o nome e o xp abaixo para verificar o nível do seu herói!</p>
+                <section class="superior" id="imagem">
+                   
                 </section>
-                <input class="input" id="nome" placeholder="Nome do Herói...">
-                <input class="input" id="xp" placeholder="XP do herói...">
-                <button class="button" onclick="classificarHeroi()">Descubra o Nível do seu Herói</button>
+                <div class="formulario"> 
+                <input class="input" id="nome" placeholder=" Nome do Herói. ">
+                <input class="input" id="xp" placeholder=" XP do Herói. ">
+                <button class="button" onclick="classificarHeroi()">Descubra o nível do seu Herói</button>
                 <p id="resultado"></p>
-            </div>
-        </containner> 
+                </div>
+        
     </main>
     
-    <script src="./assets/JavaScript/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
