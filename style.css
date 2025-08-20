@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: url('./assets/pexels-introspectivedsgn-7524992.jpg');
+  background-image: url('.//assets/pexels-introspectivedsgn-7524992.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
@@ -60,7 +60,7 @@ main {
 
 section.superior {
   height: 200px; /* menor pro mobile */
-  background-image: url('./assets/ai-generated-8291190_640.png');
+  background-image: url('.//ai-generated-8291190_640.png');
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: center;
