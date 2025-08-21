@@ -40,12 +40,12 @@ function classificarHeroi() {
         imagembk = './assets/imortal.png';
     } else if (xp >=10001) {
         nivel = "Radiante";
-        imagembk = './assets/sem_nome.png';
+        imagembk = './assets/radiante.png';
     }
 
     else {
         nivel = " desconhecido, informe os dados acima ↑";
-        imagembk = './assets/unknown.png';
+        imagembk = './assets/erro-400-770x515.jpeg-removebg-preview.png';
     }
  // Atualiza resultado
     document.getElementById('resultado').innerText = `O Herói ${nome} está no nível ${nivel}.`;
