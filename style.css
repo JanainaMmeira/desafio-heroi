@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
@@ -20,12 +21,18 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 15px;
+
+ 
 }
 
 /* Header e título */
 header {
   width: 100%;
   padding-top: 20px;
+   position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 section.titulo {
@@ -56,6 +63,12 @@ main {
   border-radius: 15px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
   overflow: hidden;
+
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 section.superior {
@@ -122,6 +135,31 @@ p#resultado {
   font-weight: bolder;
 }
 
+footer {
+  width: 100%;
+  color: #0e0e70;
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 10px;
+  background-color: #535C91;
+  text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 /* ============================================== */
 /* MEDIA QUERIES */
 /* =============================== */
@@ -139,6 +177,10 @@ p#resultado {
 
   main {
     width: 80%;
+  }
+
+  footer {
+    max-width: 80%;
   }
 }
 
@@ -164,5 +206,9 @@ p#resultado {
   section.superior {
     max-height: 180px;
     background-size: contain;
+  }
+
+   footer {
+    max-width: 700px;
   }
 }
