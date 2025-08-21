@@ -56,7 +56,8 @@ script.js    → lógica e interações
 
 # 📸 Demonstração
 
-(Aqui você pode adicionar prints da tela ou um gif mostrando o funcionamento.)
+<img width="1916" height="938" alt="image" src="https://github.com/user-attachments/assets/27deb148-ed1f-463f-b1cd-31c2436ce47c" />
+<img width="1903" height="936" alt="image" src="https://github.com/user-attachments/assets/9545ce4f-3085-4f2d-81a9-ee264e3d01c0" />
 
 # 🧑‍💻 Autor
 
