@@ -10,7 +10,7 @@ function classificarHeroi() {
 
     if (xp < 1000) {
         nivel = "Ferro";
-        imagembk = './assets/ferro.jpg';
+        imagembk = './assets/ferro.png';
     } else if (xp >= 1001 && xp <= 2000) {
         nivel = "Cristal";
         imagembk = './assets/cristal.jpg';

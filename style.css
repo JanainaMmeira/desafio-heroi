@@ -62,16 +62,14 @@ section.superior {
   height: 200px; /* menor pro mobile */
   background-image: url('./assets/ai-generated-8291190_640.png');
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  border-radius: 50% 50% 50%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding: 10px;
   transition: background 0.3s ease;
-  
 }
+
 
 /* Formulário */
 .formulario {
