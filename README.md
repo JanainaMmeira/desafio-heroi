@@ -60,5 +60,4 @@ script.js    → lógica e interações
 <img width="1903" height="936" alt="image" src="https://github.com/user-attachments/assets/9545ce4f-3085-4f2d-81a9-ee264e3d01c0" />
 
 # 🧑‍💻 Autor
-
  [Janaína Meira](https://github.com/janainammeira)
