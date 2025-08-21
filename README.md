@@ -18,7 +18,7 @@ O resultado aparece diretamente na tela.
 |----------------|----------------|
 | 🪨 Ferro      | < 1000 XP      |
 | 🥉 Bronze     | 1001 – 2000 XP |
-| 🥈 Prata      | 2001 – 5000 XP |
+| 🥈 Prata      | 2001 – 3000 XP |
 | 🥇 Ouro       | 5001 – 7000 XP |
 | 💎 Platina    | 7001 – 8000 XP |
 | 🚀 Ascendente | 8001 – 9000 XP |
