@@ -4,11 +4,11 @@ Pequeno projeto em HTML, CSS e JavaScript que classifica o nível de um herói c
 
 # 🔹 Como funciona
 
-Digite o nome do herói e a quantidade de XP.
+1º Passo - Digite o nome do herói e a quantidade de XP.
 
-O sistema mostra o nível correspondente.
+2º Passo - O sistema mostra o nível correspondente.
 
-O resultado aparece diretamente na tela.
+3º Passo - O resultado aparece diretamente na tela.
 
 🔗 [Acesse aqui o projeto online](https://janainammeira.github.io/desafio-heroi)
 
