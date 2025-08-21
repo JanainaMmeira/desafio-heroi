@@ -13,31 +13,31 @@ function classificarHeroi() {
         imagembk = './assets/ferro.png';
     } else if (xp >= 1001 && xp <= 2000) {
         nivel = "Cristal";
-        imagembk = './assets/cristal.jpg';
+        imagembk = './assets/cristal.png';
     } else if (xp >= 2001 && xp <= 3000) {
         nivel = "Bronze";
-        imagembk = './assets/bronze.jpg';
+        imagembk = './assets/bronze.png';
     } else if (xp >= 3001 && xp <= 4000) {
         nivel = "Prata";
-        imagembk = './assets/prata.jpg';
+        imagembk = './assets/prata.png';
     } else if (xp >= 4001 && xp <= 5000) {
         nivel = "Ouro";
-        imagembk = './assets/ouro.jpg';
+        imagembk = './assets/ouro.png';
     } else if (xp >= 5001 && xp <= 6000) {
         nivel = "Platina";
-        imagembk = './assets/platina.jpg';
+        imagembk = './assets/platina.png';
     } else if (xp >= 6001 && xp <= 7000) {
         nivel = "Diamante";
-        imagembk = './assets/diamante.jpg';
+        imagembk = './assets/diamante.png';
     } else if (xp >= 7001 && xp <= 8000) {
         nivel = "Mestre";
-        imagembk = './assets/mestre.jpg';
+        imagembk = './assets/mestre.png';
     } else if (xp >= 8001 && xp <= 9000) {
         nivel = "Ascendente";
-        imagembk = './assets/ascendente.jpg';
+        imagembk = './assets/ascendente.png';
     } else if (xp >= 9001 && xp <= 10000) {
         nivel = "Imortal";
-        imagembk = './assets/imortal.jpg';
+        imagembk = './assets/imortal.png';
     } else if (xp >=10001) {
         nivel = "Radiante";
         imagembk = './assets/sem_nome.png';
